@@ -1,16 +1,26 @@
 /* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
+/* Asterisk wildcard selector to override default styles added by the browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 /* General styles */
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Roboto', sans-serif;
 }
 
 /* Navigation section */
 nav {
-    background-color: #FCEDDA;
+    background-color: white;
     font-family: 'Anton', sans-serif;
     font-size: 1.5rem;
+    padding: 0;
 }
 
 nav a {
@@ -25,7 +35,17 @@ ul{
 }
 /* Header */
 header {
+    height: 500px;
+    width: 100%;
+    background: url("../images/Wakeboarder.jpg") no-repeat center center/cover;
     font-family: 'Anton', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* Main content */
+main {
+    flex: 1 0 auto;
 }
 
 h1 {
@@ -35,18 +55,12 @@ h1 {
 h2 {
     font-size: 2rem;
 }
-#wakeboarder {
-    width: 100%;
-}
 
 .text-center{
     text-align: center;
 }
 
 /* Footer */
-footer {
-   
-}
 
 /* Media queries */
 @media screen and (min-width: 768px){
