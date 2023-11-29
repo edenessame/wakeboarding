@@ -8,9 +8,9 @@ body {
 
 /* Navigation section */
 nav {
-    background-color: white;
+    background-color: #FCEDDA;
     font-family: 'Anton', sans-serif;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 nav a {
@@ -43,3 +43,15 @@ h2 {
     text-align: center;
 }
 
+/* Footer */
+footer {
+   
+}
+
+/* Media queries */
+@media screen and (min-width: 768px){
+    #navbar ul{
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
