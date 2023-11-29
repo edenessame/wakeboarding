@@ -8,21 +8,33 @@ body {
 
 /* Navigation section */
 nav {
-    background-color: #8AAAE5;
+    background-color: white;
     font-family: 'Anton', sans-serif;
-    color: black;
+    font-size: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8AAAE5;
 }
 /* Remove bullet points */
 ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 0; 
 }
 /* Header */
 header {
     font-family: 'Anton', sans-serif;
 }
 
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
 #wakeboarder {
     width: 100%;
 }
