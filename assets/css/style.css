@@ -7,6 +7,12 @@ body {
 }
 
 /* Navigation section */
+nav {
+    background-color: #8AAAE5;
+    font-family: 'Anton', sans-serif;
+    color: black;
+}
+/* Remove bullet points */
 ul{
     list-style-type: none;
     margin: 0;
@@ -17,6 +23,11 @@ header {
     font-family: 'Anton', sans-serif;
 }
 
-.wakeboarder {
-
+#wakeboarder {
+    width: 100%;
 }
+
+.text-center{
+    text-align: center;
+}
+
