@@ -58,9 +58,17 @@ header {
     width: 100%;
 }
 
+/* Remove lines from header links and change default colour */
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'anton', sans-serif;
-    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
 }
 
 h2 {
