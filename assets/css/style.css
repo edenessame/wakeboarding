@@ -20,31 +20,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* Main section */
-main {
-    background-color: #87cefa;
-    /* Make main element take up any surplus space */
-    flex: 1 0 auto;
-}
-
-/* Navigation section */
-nav {
-    background-color: white;
-    font-family: 'Anton', sans-serif;
-    font-size: 1.5rem;
-    padding: 0;
-}
-
-nav a {
-    text-decoration: none;
-    color: #8AAAE5;
-}
-/* Remove bullet points */
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0; 
-}
 /* Header */
 header {
     background-color: #87cefa;
@@ -69,6 +44,21 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #000000;
+}
+
+/* Navigation section */
+#menu ul{
+    font-size: 110%;
+    letter-spacing: 4px;
+    /* Remove bullet points */
+    list-style-type: none;
+}
+
+/* Main section */
+main {
+    background-color: #87cefa;
+    /* Make main element take up any surplus space */
+    flex: 1 0 auto;
 }
 
 h2 {
