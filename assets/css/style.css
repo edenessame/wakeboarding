@@ -78,6 +78,8 @@ nav {
     padding: 0 1rem;
     /* Hide navbar items until the user clicks to open them */
     display: none;
+    /* Stop the navbar covering the header when checked, tells navigation element that the top of the element should start at the bottom of its parent */
+    top: 100%;
 }
 
 /* Main section */
