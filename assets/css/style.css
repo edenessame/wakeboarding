@@ -87,6 +87,11 @@ nav {
     display: none;
 }
 
+/* Make label larger so its easier to tap */
+#nav-toggle-label {
+    font-size: 2rem;
+}
+
 /* Main section */
 main {
     background-color: #fcedda;
