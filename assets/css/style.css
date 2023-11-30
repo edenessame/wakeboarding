@@ -60,7 +60,10 @@ nav {
     position: absolute;
     /* Add same colour as the header to make it appear like the same object when open */
     background-color: #87cefa;
-
+    /* Resize the navbar the same as the header */
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
 }
 
 /* Main section */
