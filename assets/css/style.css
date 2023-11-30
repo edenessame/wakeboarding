@@ -16,8 +16,15 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles*/
-    color: #ffdab9;
+    color: #000000;
     font-family: 'Roboto', sans-serif;
+}
+
+/* Main section */
+main {
+    background-color: #87cefa;
+    /* Make main element take up any surplus space */
+    flex: 1 0 auto;
 }
 
 /* Navigation section */
@@ -47,7 +54,6 @@ header {
     padding: 0;
     margin: 0;
 }
-
 
 h1 {
     font-size: 2rem;
