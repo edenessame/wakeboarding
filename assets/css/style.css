@@ -64,6 +64,8 @@ nav {
     width: 100%;
     left: 0;
     padding: 0 1rem;
+    /* Hide navbar items until the user clicks to open them */
+    display: none;
 }
 
 /* Main section */
