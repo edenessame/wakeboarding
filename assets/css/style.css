@@ -5,13 +5,18 @@
 * {
     padding: 0;
     margin: 0;
+    /* So when height and width is applied to an element it is applied to the entire element including the border */
     box-sizing: border-box;
 }
 
 /* General styles */
 body {
+    min-height: 100vh;
+    /* So elements show underneath each other, adds to all elements unless specified */
     display: flex;
     flex-direction: column;
+    /* Generic project styles*/
+    color: #ffdab9;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -43,14 +48,6 @@ header {
     margin: 0;
 }
 
-/* Main content */
-main {
-    /* Enlarge main element to push footer down */
-    flex: 1 0 auto;
-    /* Enable flex properties for child elements */
-    display: flex;
-    flex-direction: column;
-}
 
 h1 {
     font-size: 2rem;
