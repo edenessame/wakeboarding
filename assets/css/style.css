@@ -48,7 +48,7 @@ header a {
 h1 {
     font-family: 'anton', sans-serif;
     /* Make sure logo doesn't take up 2 lines */
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #000000;
@@ -90,8 +90,8 @@ nav {
 }
 
 /* Make label larger so its easier to tap */
-#nav-toggle-label {
-    font-size: 3rem;
+.nav-toggle-label {
+    font-size: 1.5rem;
 }
 
 /* Main section */
@@ -100,7 +100,7 @@ main {
     /* Make main element take up any surplus space */
     flex: 1 0 auto;
     /* Push content down so it starts below the header and isn't covered */
-    margin-top: 33px;
+    margin-top: 120px;
 }
 
 h2 {
@@ -113,10 +113,27 @@ h2 {
 
 /* Footer */
 
-/* Media query for tablets and larger 768px and up */
-@media screen and (min-width: 768px){
-    /* Make sure navbar is always displayed */
+/* Media query for laptops and larger 992px and up */
+@media screen and (min-width: 992px){
     nav {
-        
+        /* Make sure navbar is always displayed to see all the links */
+        display: block;
+        /* Put navbar back inside the header */
+        position: relative;
+        width: fit-content;
+        /* Stop menu items sticking to the edge of the screen */
+        padding-right: 1rem;
+    }
+    #menu ul {
+        /* Make list items show side by side */
+        display: flex;
+    }
+    #menu li {
+        /* Space between the list items so they don't stick together */
+        padding: 1rem;
+    }
+    /* Hide toggle */
+    .nav-toggle-label {
+        display: none;
     }
 }
