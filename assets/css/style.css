@@ -47,6 +47,8 @@ header a {
 
 h1 {
     font-family: 'anton', sans-serif;
+    /* Make sure logo doesn't take up 2 lines */
+    font-size: 1.5rem;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #000000;
@@ -97,8 +99,8 @@ main {
     background-color: #fcedda;
     /* Make main element take up any surplus space */
     flex: 1 0 auto;
-    /* Push content down so it starts below the header */
-    margin-top: 95px;
+    /* Push content down so it starts below the header and isn't covered */
+    margin-top: 33px;
 }
 
 h2 {
@@ -111,10 +113,10 @@ h2 {
 
 /* Footer */
 
-/* Media queries */
+/* Media query for tablets and larger 768px and up */
 @media screen and (min-width: 768px){
-    #navbar ul{
-        display: flex;
-        justify-content: space-evenly;
+    /* Make sure navbar is always displayed */
+    nav {
+        
     }
 }
