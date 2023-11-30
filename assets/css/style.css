@@ -89,7 +89,7 @@ nav {
 
 /* Make label larger so its easier to tap */
 #nav-toggle-label {
-    font-size: 2rem;
+    font-size: 3rem;
 }
 
 /* Main section */
@@ -97,6 +97,8 @@ main {
     background-color: #fcedda;
     /* Make main element take up any surplus space */
     flex: 1 0 auto;
+    /* Push content down so it starts below the header */
+    margin-top: 95px;
 }
 
 h2 {
