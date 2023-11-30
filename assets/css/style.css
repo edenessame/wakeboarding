@@ -31,6 +31,18 @@ header {
     z-index: 99;
     /* make the header fill the width of the screen */
     width: 100%;
+    /* Make header and drop down menu appear in a row */
+    display: flex;
+    /* add space between heading and toggle */
+    justify-content: space-between;
+    /* Make sure items show in a line vertically */
+    align-items: baseline;
+}
+
+/* Nav toggle */
+/* ~ to target the adjoining nav element */
+#nav-toggle:checked~nav {
+    display: block;
 }
 
 /* Remove lines from header links and change default colour */
