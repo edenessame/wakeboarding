@@ -47,12 +47,15 @@ ul{
 }
 /* Header */
 header {
-    height: 500px;
+    background-color: #87cefa;
+    /* Padding to prevent text from sticking to the screen */
+    padding: 0 1rem;
+    /* So the bar scrolls along */
+    position: fixed;
+    /* High z-index so its layered on top of other elements */
+    z-index: 99;
+    /* make the header fill the width of the screen */
     width: 100%;
-    background: url("../images/Wakeboarder.jpg") no-repeat center center/cover;
-    font-family: 'Anton', sans-serif;
-    padding: 0;
-    margin: 0;
 }
 
 h1 {
