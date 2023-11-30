@@ -39,12 +39,6 @@ header {
     align-items: baseline;
 }
 
-/* Nav toggle */
-/* ~ to target the adjoining nav element */
-#nav-toggle:checked~nav {
-    display: block;
-}
-
 /* Remove lines from header links and change default colour */
 header a {
     text-decoration: none;
@@ -80,6 +74,17 @@ nav {
     display: none;
     /* Stop the navbar covering the header when checked, tells navigation element that the top of the element should start at the bottom of its parent */
     top: 100%;
+}
+
+/* Nav toggle */
+/* ~ to target the adjoining nav element */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+/* Hides checkbox */
+#nav-toggle {
+    display: none;
 }
 
 /* Main section */
