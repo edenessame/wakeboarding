@@ -47,7 +47,6 @@ header a {
 
 h1 {
     font-family: 'anton', sans-serif;
-    /* Make sure logo doesn't take up 2 lines */
     font-size: 1.4rem;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -96,11 +95,20 @@ nav {
 
 /* Main section */
 main {
-    background-color: #FCEDDA;
     /* Make main element take up any surplus space */
     flex: 1 0 auto;
     /* Push content down so it starts below the header and isn't covered */
     margin-top: 84.8px;
+}
+
+/* Hero section */
+#hero {
+    height: 600px;
+    /* Fill the entire screen */
+    width:100%;
+    /*../ goes out of a folder to come back in and access another file in the folder */
+    /* Make sure image doesn't repeat, center vertically and horizontally, automatically size itself to cover the entire section so it doesn't get squashed or distorted */
+    background: url(../images/Wakeboarder.jpg) no-repeat center center/cover;
 }
 
 h2 {
@@ -136,7 +144,10 @@ footer {
     color: #FCEDDA;
 }
 
-/* M */
+/* Media query for tablets and screens of 768px and up */
+@media screen and (min-width:768px) {
+    
+}
 
 /* Media query for laptops and larger 992px and up */
 @media screen and (min-width: 992px){
@@ -176,7 +187,7 @@ footer {
     /* Main */ 
     main {
         /* Push margin down to accomodate larger header */
-        margin-top: 79px;
+        margin-top:126.4px;
     }
 
 
