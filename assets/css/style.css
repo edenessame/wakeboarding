@@ -22,7 +22,7 @@ body {
 
 /* Header */
 header {
-    background-color: #87cefa;
+    background-color: #EBB582;
     /* Padding to prevent text from sticking to the screen */
     padding: 0 1rem;
     /* So the bar scrolls along */
@@ -67,7 +67,7 @@ nav {
     /* Takes nav element out of the header */
     position: absolute;
     /* Add same colour as the header to make it appear like the same object when open */
-    background-color: #87cefa;
+    background-color: #EBB582;
     /* Resize the navbar the same as the header */
     width: 100%;
     left: 0;
@@ -136,4 +136,15 @@ h2 {
     .nav-toggle-label {
         display: none;
     }
+    /* make logo larger */
+    #logo {
+        font-size: 500%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main */ 
+    main {}
+
+
 }
