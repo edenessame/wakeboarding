@@ -95,6 +95,7 @@ nav {
 
 /* Main section */
 main {
+    background-color: #FCEDDA;
     /* Make main element take up any surplus space */
     flex: 1 0 auto;
     /* Push content down so it starts below the header and isn't covered */
