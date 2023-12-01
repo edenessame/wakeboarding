@@ -113,7 +113,7 @@ main {
 }
 
 #cover-text {
-    font-size: 80%;
+    font-size: 200%;
     /* Position it relative to the hero section */
     position: absolute;
     /* set position relative to the bottom */
