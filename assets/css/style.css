@@ -113,6 +113,8 @@ h2 {
 
 /* Footer */
 
+/* M */
+
 /* Media query for laptops and larger 992px and up */
 @media screen and (min-width: 992px){
     nav {
@@ -142,9 +144,17 @@ h2 {
         line-height: 75px;
         margin: 0 0.5rem;
     }
+    
+    /* Underline links when moused over */
+    #menu a:hover {
+        border-bottom: 3px solid #fcedda
+    }
 
     /* Main */ 
-    main {}
+    main {
+        /* Push margin down to accomodate larger header */
+        margin-top: 79px;
+    }
 
 
 }
