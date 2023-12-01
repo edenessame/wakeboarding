@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
-* {
+* {/* Remove default white space around the screen */
     padding: 0;
     margin: 0;
     /* So when height and width is applied to an element it is applied to the entire element including the border */
@@ -23,23 +23,23 @@ body {
 /* Header */
 header {
     background-color: #EBB582;
-    /* Padding to prevent text from sticking to the screen */
-    padding: 0 1rem;
-    /* So the bar scrolls along */
+    /* Padding to give space from the edge of the screen */
+    padding: 1.6rem 1rem;
+    /* So the header remains visable when the screen is scrolled */
     position: fixed;
     /* High z-index so its layered on top of other elements */
     z-index: 99;
-    /* make the header fill the width of the screen */
+    /* Make the header fill the width of the screen */
     width: 100%;
     /* Make header and drop down menu appear in a row */
     display: flex;
-    /* add space between heading and toggle */
+    /* Add space between heading and toggle */
     justify-content: space-between;
     /* Make sure items show in a line vertically */
     align-items: baseline;
 }
 
-/* Remove lines from header links and change default colour */
+/* Remove lines from header links and change colour */
 header a {
     text-decoration: none;
     color: inherit;
@@ -163,7 +163,7 @@ footer {
     }
     /* make logo larger */
     #logo {
-        font-size: 500%;
+        font-size: 250%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
