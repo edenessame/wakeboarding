@@ -96,7 +96,7 @@ nav {
 
 /* Main section */
 main {
-    background-color: #fcedda;
+    background-color: #FCEDDA;
     /* Make main element take up any surplus space */
     flex: 1 0 auto;
     /* Push content down so it starts below the header and isn't covered */
@@ -112,6 +112,29 @@ h2 {
 }
 
 /* Footer */
+footer {
+    background-color: #EBB582;
+}
+
+/* Style footer icons */
+#social-networks {
+    /* Center icons */
+    text-align: center;
+    /* Add space above and bellow icons */
+    padding: 20px 0;
+    /* Space evenly along the footer */
+    display: flex;
+    justify-content: space-evenly;
+    /* Remove bullet points */
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 150%;
+    /* create space around icons */
+    padding: 5%;
+    color: #FCEDDA;
+}
 
 /* M */
 
