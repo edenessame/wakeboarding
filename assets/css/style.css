@@ -20,6 +20,14 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1, h2, h3 {
+    font-family: 'anton', sans-serif;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000000;
+}
+
 /* Header */
 header {
     background-color: #EBB582;
@@ -43,14 +51,6 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-}
-
-h1 {
-    font-family: 'anton', sans-serif;
-    font-size: 1.4rem;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #000000;
 }
 
 /* Navigation section */
@@ -103,7 +103,7 @@ main {
 
 /* Hero section */
 #hero {
-    height: 600px;
+    height: 550px;
     /* Fill the entire screen */
     width:100%;
     /*../ goes out of a folder to come back in and access another file in the folder */
@@ -111,9 +111,14 @@ main {
     background: url(../images/Wakeboarder.jpg) no-repeat center center/cover;
 }
 
-h2 {
-    font-size: 2rem;
-}
+#cover-text {
+    font-size: 80%;
+    /* Position it relative to the hero section */
+    position: absolute;
+    /* set position relative to the bottom */
+    bottom: 60%;
+    text-align: center;
+   }
 
 .text-center{
     text-align: center;
