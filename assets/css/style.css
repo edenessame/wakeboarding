@@ -100,7 +100,7 @@ main {
     /* Make main element take up any surplus space */
     flex: 1 0 auto;
     /* Push content down so it starts below the header and isn't covered */
-    margin-top: 120px;
+    margin-top: 84.8px;
 }
 
 h2 {
