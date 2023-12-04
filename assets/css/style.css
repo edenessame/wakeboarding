@@ -151,7 +151,7 @@ main {
     padding: 30px;
 }
 
-#questions > h2 {
+#questions > h2, p {
     margin-bottom: 20px;
 }
 
@@ -166,12 +166,19 @@ main {
 
 .text-area {
     width: 100%;
-    color: #EBB582;
     margin: 5px 0 20px 0;
     border: 1px solid #EBB582;
     border-radius: 2px;
 }
 
+
+.submit-button {
+    margin-top: 10px;
+    background-color: #EBB582;
+    border-radius: 2px;
+    padding: 15px 40px;
+    font-size: 120%;
+}
 
 .text-center{
     text-align: center;
@@ -204,7 +211,12 @@ footer {
 
 /* Media query for tablets and screens of 768px and up */
 @media screen and (min-width:768px) {
-    
+    #get-in-touch {
+        display: flex;
+        justify-content: center;
+        max-width: 400px;
+        flex-grow: 1;
+    }
 }
 
 /* Media query for laptops and larger 992px and up */
