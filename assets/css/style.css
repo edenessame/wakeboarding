@@ -180,10 +180,15 @@ main {
     font-size: 120%;
 }
 
-.text-center{
-    text-align: center;
+#info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+#opening-times {
+    margin-bottom: 20px;
+}
 /* Footer */
 footer {
     background-color: #EBB582;
@@ -211,11 +216,12 @@ footer {
 
 /* Media query for tablets and screens of 768px and up */
 @media screen and (min-width:768px) {
-    #get-in-touch {
+    #info{
         display: flex;
-        justify-content: center;
-        max-width: 400px;
-        flex-grow: 1;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
     }
 }
 
