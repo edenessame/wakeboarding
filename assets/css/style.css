@@ -107,8 +107,7 @@ main {
     height: 550px;
     /* Fill the entire screen */
     width:100%;
-    /*../ goes out of a folder to come back in and access another file in the folder */
-    /* Make sure image doesn't repeat, center vertically and horizontally, automatically size itself to cover the entire section so it doesn't get squashed or distorted */
+    /* Image sourced from: https://www.pexels.com/photo/a-woman-wake-boarding-on-the-lake-9967368/ */
     background: url(../images/Wakeboarder.jpg) no-repeat center center/cover;
 }
 
@@ -130,6 +129,10 @@ main {
     line-height: 1.8;
 }
 
+#about > h2 {
+    margin-bottom: 20px;
+}
+
 /* Price section */
 #prices {
     width: 90%;
@@ -137,6 +140,36 @@ main {
     padding-top: 20px;
     padding-bottom: 20px;
     line-height: 1.8;
+}
+
+#prices > h2 {
+    margin-bottom: 20px;
+}
+
+/* Get in Touch section */
+#questions {
+    padding: 30px;
+}
+
+#questions > h2 {
+    margin-bottom: 20px;
+}
+
+.text-input{
+    width: 100%;
+    color: #EBB582;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #EBB582;
+    border-radius: 2px;
+}
+
+.text-area {
+    width: 100%;
+    color: #EBB582;
+    margin: 5px 0 20px 0;
+    border: 1px solid #EBB582;
+    border-radius: 2px;
 }
 
 
