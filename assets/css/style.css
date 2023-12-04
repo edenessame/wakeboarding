@@ -152,7 +152,7 @@ main {
     margin-bottom: 20px;
 }
 
-/* Get in Touch section */
+/* Contact section */
 #questions {
     padding: 30px;
 }
@@ -176,7 +176,6 @@ main {
     border: 1px solid #EBB582;
     border-radius: 2px;
 }
-
 
 .submit-button {
     margin-top: 10px;
@@ -228,6 +227,11 @@ footer {
         justify-content: space-around;
         align-items: center;
     }
+    .text-input:hover {
+        border-color: #EBB582;
+    }
+    .submit-button:hover {
+        background-color: #FCEDDA;
     }
 }
 
