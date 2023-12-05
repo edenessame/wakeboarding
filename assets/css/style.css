@@ -157,7 +157,13 @@ main {
 }
 
 #questions {
-    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 20px auto;
+    padding-top: 150px;
+    line-height: 1.8;
 }
 
 #questions > h2, p {
