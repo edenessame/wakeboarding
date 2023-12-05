@@ -224,6 +224,9 @@ footer {
 
 /* Media query for tablets and screens of 768px and up */
 @media screen and (min-width:768px) {
+    #contact{
+        padding:0 20%;
+    }
     #info{
         display: flex;
         flex-direction: row;
