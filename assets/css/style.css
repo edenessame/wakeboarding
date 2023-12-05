@@ -2,10 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
-* {/* Remove default white space around the screen */
-    padding: 0;
+* {padding: 0;
     margin: 0;
-    /* So when height and width is applied to an element it is applied to the entire element including the border */
     box-sizing: border-box;
 }
 
