@@ -209,20 +209,15 @@ footer {
 
 /* Style footer icons */
 #social-networks {
-    /* Center icons */
     text-align: center;
-    /* Add space above and bellow icons */
     padding: 20px 0;
-    /* Space evenly along the footer */
     display: flex;
     justify-content: space-evenly;
-    /* Remove bullet points */
     list-style-type: none;
 }
 
 #social-networks i {
     font-size: 150%;
-    /* create space around icons */
     padding: 5%;
     color: #FCEDDA;
 }
@@ -239,17 +234,6 @@ footer {
         justify-content: space-around;
         align-items: center;
     }
-    /*#questions {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        width: 90%;
-        margin: 20px auto;
-        padding-top: 150px;
-        line-height: 1.8;
-    }*/
-
-
     .text-input:hover {
         border-color: #EBB582;
     }
@@ -261,16 +245,12 @@ footer {
 /* Media query for laptops and larger 992px and up */
 @media screen and (min-width: 992px){
     nav {
-        /* Make sure navbar is always displayed to see all the links */
         display: block;
-        /* Put navbar back inside the header */
         position: relative;
         width: fit-content;
-        /* Stop menu items sticking to the edge of the screen */
         padding-right: 1rem;
     }
     #menu ul {
-        /* Make list items show side by side */
         display: flex;
     }
     #menu li {
