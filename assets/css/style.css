@@ -111,16 +111,6 @@ main {
     /* Image sourced from: https://www.pexels.com/photo/a-woman-wake-boarding-on-the-lake-9967368/ */
     background: url(../images/Wakeboarder.jpg) no-repeat center center/cover;
 }
-
-#cover-text {
-    font-size: 200%;
-    /* Position it relative to the hero section */
-    position: absolute;
-    /* set position relative to the bottom */
-    bottom: 60%;
-    text-align: center;
-   }
-
    /* About section */
 #about {
     display: flex;
@@ -278,6 +268,7 @@ footer {
         /* Push margin down to accomodate larger header */
         margin-top:126.4px;
     }
+
     #about, #prices, #contact {
         padding-top: 126.4px;
     }
