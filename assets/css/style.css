@@ -10,10 +10,8 @@
 /* General styles */
 body {
     min-height: 100vh;
-    /* So elements show underneath each other, adds to all elements unless specified */
     display: flex;
     flex-direction: column;
-    /* Generic project styles*/
     color: #000000;
     font-family: 'Roboto', sans-serif;
 }
@@ -32,23 +30,15 @@ p {text-align: center;}
 /* Header */
 header {
     background-color: #EBB582;
-    /* Padding to give space from the edge of the screen */
     padding: 1.6rem 1rem;
-    /* So the header remains visable when the screen is scrolled */
     position: fixed;
-    /* High z-index so its layered on top of other elements */
     z-index: 99;
-    /* Make the header fill the width of the screen */
     width: 100%;
-    /* Make header and drop down menu appear in a row */
     display: flex;
-    /* Add space between heading and toggle */
     justify-content: space-between;
-    /* Make sure items show in a line vertically */
     align-items: baseline;
 }
 
-/* Remove lines from header links and change colour */
 header a {
     text-decoration: none;
     color: inherit;
@@ -58,28 +48,21 @@ header a {
 #menu ul{
     font-size: 110%;
     letter-spacing: 4px;
-    /* Remove bullet points */
     list-style-type: none;
 }
 
 /* Navbar styles with drop down toggle */
 nav {
-    /* Takes nav element out of the header */
     position: absolute;
-    /* Add same colour as the header to make it appear like the same object when open */
     background-color: #EBB582;
-    /* Resize the navbar the same as the header */
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    /* Hide navbar items until the user clicks to open them */
     display: none;
-    /* Stop the navbar covering the header when checked, tells navigation element that the top of the element should start at the bottom of its parent */
     top: 100%;
 }
 
 /* Nav toggle */
-/* ~ to target the adjoining nav element */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -89,7 +72,6 @@ nav {
     display: none;
 }
 
-/* Make label larger so its easier to tap */
 .nav-toggle-label {
     font-size: 1.5rem;
 }
@@ -97,16 +79,13 @@ nav {
 /* Main section */
 main {
     background-color: #FCEDDA;
-    /* Make main element take up any surplus space */
     flex: 1 0 auto;
-    /* Push content down so it starts below the header and isn't covered */
     margin-top: 84.8px;
 }
 
 /* Hero section */
 #hero {
     height: 550px;
-    /* Fill the entire screen */
     width:100%;
     /* Image sourced from: https://www.pexels.com/photo/a-woman-wake-boarding-on-the-lake-9967368/ */
     background: url(../images/Wakeboarder.jpg) no-repeat center center/cover;
@@ -244,34 +223,28 @@ footer {
         display: flex;
     }
     #menu li {
-        /* Space between the list items so they don't stick together */
         padding: 1rem;
     }
-    /* Hide toggle */
+   
     .nav-toggle-label {
         display: none;
     }
-    /* make logo larger */
+    
     #logo {
         font-size: 250%;
         line-height: 75px;
         margin: 0 0.5rem;
     }
-    
-    /* Underline links when moused over */
     #menu a:hover {
         border-bottom: 3px solid #fcedda
     }
 
     /* Main */ 
     main {
-        /* Push margin down to accomodate larger header */
         margin-top:126.4px;
     }
 
     #about, #prices, #contact {
         padding-top: 126.4px;
     }
-
-
 }
