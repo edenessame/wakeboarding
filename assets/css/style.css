@@ -67,7 +67,6 @@ nav {
     display: block;
 }
 
-/* Hides checkbox */
 #nav-toggle {
     display: none;
 }
@@ -239,7 +238,6 @@ footer {
         border-bottom: 3px solid #fcedda
     }
 
-    /* Main */ 
     main {
         margin-top:126.4px;
     }
