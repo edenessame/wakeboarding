@@ -66,12 +66,21 @@ The website opens on a picture of a wakeboarder at the park.
 
 ![image of the footer](./readme-assets/Footer.png) 
 
-### Testing
+## Testing
 
 * I tested the site and it works in different browsers: Chrome, Firefox and Microsoft Edge.
 * I confirmed that the site is responsive and functions on different screen sizes using devtools device toolbar.
 * I confirmed that the navigation, logo, about us, prices and contact text are all readable and easy to understand
 * I confirmed that the form works: it requires entries in every field, only accepts an email in the email field and the submit button works.
+
+### Validator testing
+
+* **HTML** 
+The W3C validator found that in my form I hadn't added a corresponding "id" attribute to my first-name input element `<input type="text" name="first-name" required>` to link it to the "for" attribute of its corresponding label element `<label for="first-name">First Name</label>`. So I corrected that `<input type="text" name="first-name" id="first-name" class="text-input" required>`. 
+
+* The W3C validator also found that i had used a bad value: `role="img"` on my "aria-label" attribute. So I removed it.
+
+* Now no errors were returned when passing through the official [W3C validator](./readme-assets/HTML-validator.png)
 
 
 
