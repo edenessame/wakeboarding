@@ -12,10 +12,10 @@ It is a website about a fictional wakeboard park in the town in which I live in.
 
 ### Navigation Section
 
-* The navigation bar is at the top of the page and fixed, so always visible and accessable wherever the user is on the page.
-* The navigation bar shows the business name in the top left corner.
+* The Navigation bar is at the top of the page and fixed, so always visible and accessable wherever the user is on the page.
+* The Navigation bar shows the business name in the top left corner.
 * The other navigation links are to the right: Home, About Us, Prices and contact. They become a drop down menu on smaller screens where they would take up too much screen space.
-* The navigation bar tells the user the name of the business and website and the differnt sections of information are easy to find
+* The Navigation bar tells the user the name of the business and website and the differnt sections of information are easy to find
 
 ![Navigation bar on a large screen](./readme-assets/Navigation-bar.png)
 
@@ -29,11 +29,22 @@ The website opens on a picture of a wakeboarder at the park.
 
 ### About Us Section
 
-* The about section is welcoming.
-* The about section tells users about the business and who its for.
-* The about section lets users know what services are available.
-* The about section lets users know that beginners and experienced riders are catered for.
-* The about section lets people know lessons are available.
+* The About Us section is warm and welcoming.
+* The About Us section tells users about the business and who its for.
+* The About Us section lets users know what services are available.
+* The About Us section lets users know that beginners and experienced riders are catered for.
+* The About Us section lets people know lessons are available.
 
 ![About Us section](./readme-assets/About-us.png)
 
+### Prices Section
+
+* The Prices section lets users know the session prices and that there are different prices for adults and under 16's.
+* The prices section lets users know how much equipment rental is, but that they can use their own.
+* The Prices section lets users know how long a session lasts for.
+
+![Prices section](./readme-assets/Prices.png)
+
+### Contact Section
+
+* The contact
