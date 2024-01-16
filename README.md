@@ -35,5 +35,5 @@ The website opens on a picture of a wakeboarder at the park.
 * The about section lets users know that beginners and experienced riders are catered for.
 * The about section lets people know lessons are available.
 
-
+![About Us section](./readme-assets/About-us.png)
 
