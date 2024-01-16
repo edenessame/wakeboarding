@@ -12,13 +12,20 @@ It is a website about a fictional wakeboard park in the town in which I live in.
 
 ### Navigation
 
--The navigation bar is at the top of the page and fixed, so always visible and accessable wherever the user is on the page.
--The navigation bar shows the business name in the top left corner.
--The other navigation links are to the right: Home, About Us, Prices and contact. They become a drop down menu on smaller screens where they would take up too much screen space.
--The navigation bar tells the user the name of the business and website and the differnt sections of information are easy to find
+*The navigation bar is at the top of the page and fixed, so always visible and accessable wherever the user is on the page.
+*The navigation bar shows the business name in the top left corner.
+*The other navigation links are to the right: Home, About Us, Prices and contact. They become a drop down menu on smaller screens where they would take up too much screen space.
+*The navigation bar tells the user the name of the business and website and the differnt sections of information are easy to find
 
 ![Navigation bar on a large screen](./readme-assets/Navigation-bar.png)
 
 ![Navigation bar on a small screen](./readme-assets/Navigation-bar-mobile.png)
+
+### Home
+
+The website opens on a picture of a wakeboarder at the park.
+
+![Website opening image of a wakeboarder](./readme-assets/Wakeboarder-image-readme.png)
+
 
 
