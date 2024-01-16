@@ -76,11 +76,14 @@ The website opens on a picture of a wakeboarder at the park.
 ### Validator testing
 
 * **HTML** 
-The W3C validator found that in my form I hadn't added a corresponding "id" attribute to my first-name input element `<input type="text" name="first-name" required>` to link it to the "for" attribute of its corresponding label element `<label for="first-name">First Name</label>`. So I corrected that `<input type="text" name="first-name" id="first-name" class="text-input" required>`. 
+ * The W3C validator found that in my form I hadn't added a corresponding "id" attribute to my first-name input element `<input type="text" name="first-name" required>` to link it to the "for" attribute of its corresponding label element `<label for="first-name">First Name</label>`. So I corrected that `<input type="text" name="first-name" id="first-name" class="text-input" required>`. 
 
-* The W3C validator also found that i had used a bad value: `role="img"` on my "aria-label" attribute. So I removed it.
+ * The W3C validator also found that i had used a bad value: `role="img"` on my "aria-label" attribute. So I removed it.
 
-* Now no errors were returned when passing through the official [W3C validator](./readme-assets/HTML-validator.png)
+ * Now no errors were returned when passing through the official [W3C Validator](./readme-assets/HTML-validator.png)
+
+* **CSS**
+ * No errors were found when passing through the official [(jigsaw) Validator](./readme-assets/CSS-validator.png) 
 
 
 
