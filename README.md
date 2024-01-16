@@ -66,3 +66,12 @@ The website opens on a picture of a wakeboarder at the park.
 
 ![image of the footer](./readme-assets/Footer.png) 
 
+### Testing
+
+* I tested the site and it works in different browsers: Chrome, Firefox and Microsoft Edge.
+* I confirmed that the site is responsive and functions on different screen sizes using devtools device toolbar.
+* I confirmed that the navigation, logo, about us, prices and contact text are all readable and easy to understand
+* I confirmed that the form works: it requires entries in every field, only accepts an email in the email field and the submit button works.
+
+
+
