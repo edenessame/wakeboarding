@@ -45,6 +45,12 @@ The website opens on a picture of a wakeboarder at the park.
 
 ![Prices section](./readme-assets/Prices.png)
 
-### Contact Section
+### Contact Section 
 
-* The contact
+#### Form
+
+* The contact section has a form that collects users name, email address and lets them ask question.
+* The contact form is useful to users as it lets them ask any questions they might have.
+
+![Contact section form](./readme-assets/Contact-form.png)
+
