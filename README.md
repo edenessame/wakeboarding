@@ -29,7 +29,6 @@ The website opens on a picture of a wakeboarder at the park.
 
 ### About Us Section
 
-* The About Us section is warm and welcoming.
 * The About Us section tells users about the business and who its for.
 * The About Us section lets users know what services are available.
 * The About Us section lets users know that beginners and experienced riders are catered for.
@@ -49,8 +48,15 @@ The website opens on a picture of a wakeboarder at the park.
 
 #### Form
 
-* The contact section has a form that collects users name, email address and lets them ask question.
-* The contact form is useful to users as it lets them ask any questions they might have.
+* The Contact section has a form that collects users name, email address and lets them ask question.
+* The Contact form is useful to users as it lets them ask any questions they might have.
 
 ![Contact section form](./readme-assets/Contact-form.png)
+
+#### Opening times and Location
+
+* The Contact section also has the opening times, so users know when they can visit.
+* The Contact section also has the address and postcode, so users know where the park is located.
+
+![Opening times and location](./readme-assets/Opening-times-and-location.png)
 
