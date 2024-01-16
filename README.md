@@ -60,3 +60,9 @@ The website opens on a picture of a wakeboarder at the park.
 
 ![Opening times and location](./readme-assets/Opening-times-and-location.png)
 
+### Footer
+
+* This section includes the social media links which users can use to visit the Facebook, Instagram and twitter pages of the business.
+
+![image of the footer](./readme-assets/Footer.png) 
+
