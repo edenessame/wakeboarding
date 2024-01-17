@@ -99,17 +99,30 @@ The website opens on a picture of a wakeboarder at the park.
 
 * No unfixed bugs.
 
-### Deployment
+## Deployment
 
 * The site was deployed to Git Hub pages using the following steps:
   * In the Github repository, click the settings tab.
   * Under "General" in the subsection "Code and automation" click "Pages".
-  * In the "Build and deployment" section, under "Source" select "Deploy from a branch" from the drop down menu. 
-  * Under "Branch" select "Main" from the drop down menu and save.
+  * In the "Build and deployment" section, under "Source" select "Deploy from a branch" from the dropdown menu. 
+  * Under "Branch" select "Main" from the dropdown menu and save.
   * The link to the website can be found at the top of the page.
   * The deployed website will update automatically with new commits to the master branch. 
 
+## Credits
 
+### Content
 
+* The code for the fixed navigation dropdown menu and social media links were taken from the Code Institute's [Love Running project](https://github.com/Code-Institute-Solutions/love-running-v3/tree/main/3.5b-toggling-a-dropdown-menu)
 
+### Media
 
+* The hero image was taken from [Pexles.com](https://www.pexels.com/photo/a-woman-wake-boarding-on-the-lake-9967368/) 
+
+### Acknowledgements
+
+* Help understanding and implementing HTML and CSS came from the Code Institutes Coders Coffee House and Love Running projects.
+* Help in how to structure and layout a readme file from the Code Institutes sample README.
+* Further help and understanding was sought from [W3schools](https://www.w3schools.com/html/default.asp).
+* The Code Institute tutor support team for helping guide me.
+* My mentor, Medale Oluwafemi, for his invaluable knowledge and guidance.
