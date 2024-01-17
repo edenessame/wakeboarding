@@ -99,6 +99,16 @@ The website opens on a picture of a wakeboarder at the park.
 
 * No unfixed bugs.
 
+### Deployment
+
+* The site was deployed to Git Hub pages using the following steps:
+  * In the Github repository, click the settings tab.
+  * Under "General" in the subsection "Code and automation" click "Pages".
+  * In the "Build and deployment" section, under "Source" select "Deploy from a branch" from the drop down menu. 
+  * Under "Branch" select "Main" from the drop down menu and save.
+  * The link to the website can be found at the top of the page.
+  * The deployed website will update automatically with new commits to the master branch. 
+
 
 
 
