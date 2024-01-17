@@ -2,12 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
+/* Code taken from the Code Institute Love Running project (https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/8.1-testing-and-validation/assets/css/style.css) */
 * {padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
 /* General styles */
+/* Some code taken from the Code Institute Love Running project (https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/8.1-testing-and-validation/assets/css/style.css) */
 body {
     min-height: 100vh;
     display: flex;
@@ -28,6 +30,7 @@ h1, h2, h3 {
 p {text-align: center;}
 
 /* Header */
+/* Some code taken from the Code Institute Love Running project (https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/8.1-testing-and-validation/assets/css/style.css) */
 header {
     background-color: #EBB582;
     padding: 1.6rem 1rem;
@@ -45,6 +48,7 @@ header a {
 }
 
 /* Navigation section */
+/* Some code taken from the Code Institute Love Running project (https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/8.1-testing-and-validation/assets/css/style.css) */
 #menu ul{
     font-size: 110%;
     letter-spacing: 4px;
@@ -83,6 +87,7 @@ main {
 }
 
 /* Hero section */
+/* Some code taken from the Code Institute Love Running project (https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/8.1-testing-and-validation/assets/css/style.css) */
 #hero {
     height: 550px;
     width:100%;
@@ -176,6 +181,7 @@ footer {
 }
 
 /* Style footer icons */
+/* Some code taken from the Code Institute Love Running project (https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/8.1-testing-and-validation/assets/css/style.css) */
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -212,6 +218,7 @@ footer {
 
 /* Media query for laptops and larger 992px and up */
 @media screen and (min-width: 992px){
+    /* Code taken from the Code Institute Love Running project (https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/8.1-testing-and-validation/assets/css/style.css) */
     nav {
         display: block;
         position: relative;
