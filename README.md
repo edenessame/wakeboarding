@@ -15,6 +15,7 @@ It is a website about a fictional wakeboard park in the town in which I live in.
 * The Navigation bar is at the top of the page and fixed, so always visible and accessable wherever the user is on the page.
 * The Navigation bar shows the business name in the top left corner.
 * The other navigation links are to the right: Home, About Us, Prices and contact. They become a drop down menu on smaller screens where they would take up too much screen space.
+*When a link is moused over on larger screens it is underlined to help the user see which link will be clicked.
 * The Navigation bar tells the user the name of the business and website and the differnt sections of information are easy to find
 
 ![Navigation bar on a large screen](./readme-assets/Navigation-bar.png)
@@ -86,7 +87,7 @@ The website opens on a picture of a wakeboarder at the park.
 
   * The W3C validator also found that I had used a bad value: `role="img"` on my "aria-label" attribute. So I removed it.
 
-  * Now no errors were returned when passing through the official [W3C Validator](./readme-assets/HTML-validator.png)
+  * Now, no errors were returned when passing through the official [W3C Validator](./readme-assets/HTML-validator.png)
 
 * **CSS**
   * No errors were found when passing through the official [(jigsaw) Validator](./readme-assets/CSS-validator.png)
@@ -94,6 +95,9 @@ The website opens on a picture of a wakeboarder at the park.
 * **Accessibility**   
   * I confirmed that the colours and fonts used are easy to read and accessible by running it through [lighthouse devtools](./readme-assets/Lighthouse.png)
 
+### Unfixed Bugs
+
+* No unfixed bugs.
 
 
 
