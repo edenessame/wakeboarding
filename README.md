@@ -122,7 +122,7 @@ The website opens on a picture of a wakeboarder at the park.
 ### Acknowledgements
 
 * Help understanding and implementing HTML and CSS came from the Code Institutes Coders Coffee House and Love Running projects.
-* Help in how to structure and layout a readme file from the Code Institutes sample README.
+* Help in how to structure and layout a README file from the Code Institutes [sample README](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+CSSE_PAGPPF+2021_Q2/courseware/66cf361c769a41d496f5001fae6f9be7/3b5cd5dc8313462aa5975a3c9b9a1a3c/) 
 * Further help and understanding was sought from [W3schools](https://www.w3schools.com/html/default.asp).
 * The Code Institute tutor support team for helping guide me.
 * My mentor, Medale Oluwafemi, for his invaluable knowledge and guidance.
