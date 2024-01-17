@@ -73,6 +73,12 @@ The website opens on a picture of a wakeboarder at the park.
 * I confirmed that the navigation, logo, about us, prices and contact text are all readable and easy to understand
 * I confirmed that the form works: it requires entries in every field, only accepts an email in the email field and the submit button works.
 
+### Bugs
+
+* I was finding that when i clicked my links they didn't go to the top of the intended section, but a bit down bellow the heading of the section. My mentor helped me understand that this was because my fixed header was covering part of the section, so when the link is clicked, the section is not fully visible. To fix this, he advised me to add some padding to the top of each section to account for the height of the fixed header. `padding-top: 100px;`
+
+* I was finding that my footer wasn't appearing when I deployed my page, my mentor helped me realise that the link to my font awesome kit was no longer there, so the icons from font awesome were no longer linked and there was nothing to appear as the footer. Once I had relinked my font awesome kit the footer was visible. 
+
 ### Validator testing
 
 * **HTML** 
